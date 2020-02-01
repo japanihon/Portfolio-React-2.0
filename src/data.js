@@ -13,12 +13,12 @@ export const projects = [
   },
   {
     id: 2,
-    title: "React Meme Generator :",
+    title: "Search Movie Web :",
     subtitle: "React Hooks + APIs Rest",
     description:
-      " Make your own personalized fun style Meme to share with your friends.",
-    image: "./memeweb.gif",
-    link: "https://react-meme-generator-nine.vercel.app/",
+      " Search the movies you want to now in this website.",
+    image: "./movie.jpg",
+    link: "https://reactmoviesearch.vercel.app/",
   },
   {
     id: 3,
