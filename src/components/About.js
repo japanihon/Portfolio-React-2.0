@@ -39,11 +39,11 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-lg lg:w-full w-4/5">
           <img
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded w-4/5"
             alt="hero"
-            src="./i6NG3.gif"
+            src="./giphy.gif"
             style={{border: "5px solid black"}}
           />
         </div>

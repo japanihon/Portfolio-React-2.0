@@ -1,6 +1,6 @@
 import React from "react";
 
-import { contact } from "../data";
+import { UsersIcon } from "@heroicons/react/solid";
 
 export default function Contact() {
   const [name, setName] = React.useState("");
@@ -38,33 +38,30 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="flex">
-    <div className="container px-20 py-20 mx-auto flex sm:flex-nowrap w-15 h-15">
-      <div className="bg-gray-900 flex-block py-20
-      px-10 h-3/6 h-full rounded shadow-md">
-      <h1 style={{ color: "white" }}> Hola ke ase </h1> 
-         <iframe
-          width="580"
-          height="560"
-          title="gif"
-          className="giphy-embed"
-          src="./giphy.gif"
-        />
-        </div>
+    <section id="contact" className="flex justify-center items-center"
+    style={{backgroundColor: "#bfbfbf"}}
+    >
+    <div className="justify-center bg-gray text-center">
+    <UsersIcon
+       className="inline-block" 
+       style={{width: "70px", backgroundColor: "#bfbfbf", alignItems: "center"}}
+       />
       <form
         netlify="true"
         name="contact"
         onSubmit={handleSubmit}
-        className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+        className="justify-center items-center"
         >
-        <h2 className="text-gray sm:text-4xl text-3xl mb-1 font-medium title-font">
+        <h2 className="text-gray sm:text-4xl text-3xl mb-1 font-medium title-font flex justify-center content-center items-center" 
+        style={{color: '#e0ebeb'}}
+        >
           Contact Me
         </h2>
         <p className="leading-relaxed mb-5">
         Thank you for visiting my website. Let's build something amazing together!
         </p>
         <div className="relative mb-4">
-          <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+          <label htmlFor="name" className="leading-7  flex justify-center content-center items-center">
             Name
           </label>
           <input
@@ -72,11 +69,12 @@ export default function Contact() {
             id="name"
             name="name"
             onChange={(e) => setName(e.target.value)}
-            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            className="w-full rounded border focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-black-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            style={{ backgroundColor: "#e0ebeb" }}
           />
         </div>
         <div className="relative mb-4">
-          <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+          <label htmlFor="email" className="leading-7 flex justify-center content-center items-center">
             Email
           </label>
           <input
@@ -84,32 +82,36 @@ export default function Contact() {
             id="email"
             name="email"
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            className="w-full rounded border focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-black-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out flex justify-center content-center items-center"
+            style={{ backgroundColor: "#e0ebeb" }}
           />
         </div>
         <div className="relative mb-4">
           <label
             htmlFor="message"
-            className="leading-7 text-sm text-gray-400">
+            className="leading-7  flex justify-center content-center items-center">
             Message
           </label>
           <textarea
             id="message"
             name="message"
             onChange={(e) => setMessage(e.target.value)}
-            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+            className="w-full rounded border  focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-black-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+            style={{ backgroundColor: "#e0ebeb" }}
           />
         </div>
+        <div className="relative mb-4 flex justify-center content-center items-center">
         <button
           type="submit"
-          className="text-white bg-indigo-500 border-1 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-          style={{color: "#0000cc", backgroundColor: isHovering ? 'gray' : 'white' , fontSize: 24 }}
+          className="w-full text-white bg-indigo-500 border-1 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+          style={{color: "#0000cc", backgroundColor: isHovering ? 'gray' : '#e0ebeb' , fontSize: 24 }}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
           onClick={handleSubmit}
           >
           Submit
         </button>
+       </div>
       </form>
       </div>
   </section>
