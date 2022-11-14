@@ -4,14 +4,13 @@ import { contact } from "../data";
 
 export default function Footer() {
 return (
-    <footer id="contact" className="flex justify-center items-center"
-    style={{backgroundColor: "#bfbfbf"}}>
-    <div className="flex items-center space-x-5 bg-blue w-5"
-    style={{width: 400, height: 300, padding: 10, margin: 10}}>
+
+    <footer className="justify-center bg-gray items-center text-center"
+    >
     {contact.map((contact) => ( 
         <div 
         key={contact.id}
-        className="flex items-center space-x-5 bg-blue w-5"
+        className="justify-center items-center font-mono text-2xl text-center"
         style={{backgroundColor: "#bfbfbf",
         width: "15rem", height: "auto"}}
         >
@@ -19,14 +18,12 @@ return (
         <img 
          src={contact.image}
          alt="social media"
-         style={{border: "3px solid black", borderRadius: "20px"}} 
+         style={{border: "3px solid black", borderRadius: "10px"}} 
          />
          </a>
-    
-</div>
-         ))}
          </div>
-         <p> © 2022 Design by AR development. All rights reserved. </p>
+         ))}
+         <p className="justify-center items-center font-mono text-2xl text-center"> © 2022 Design by AR development. All rights reserved. </p>
          </footer>
 )
 }
