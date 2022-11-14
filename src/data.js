@@ -1,60 +1,98 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    id: 1,
+    title: "Image Search App",
+    subtitle: "Javascript",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "Image Search App is an image search engine that lets you scour the web for the best pictures of anything you could possibly want",
+    image: "./imageweb.gif",
+    link: "https://image-search-engineering.netlify.app/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    id: 2,
+    title: "React Meme Generator",
+    subtitle: "React Hooks calling an API",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "Make your own personalized fun style Meme to share with your friends",
+    image: "./memeweb.gif",
+    link: "https://react-meme-generator-nine.vercel.app/",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    id: 3,
+    title: "Simple Shopping List App",
+    subtitle: "Vanilla JS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "Shopping list app allows you to create a groceries list in an easily way, with one click you can add or delete items",
+    image: "./shopping-list.gif",
+    link: "https://shopping-list-up.netlify.app/",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    id: 4,
+    title: "Nes Todo App",
+    subtitle: "React + Typescript + Nes.CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "Todo Nes App can be usefull for create shopping lists, to-do lists, take notes, or set reminders to increase your productivity. Todo Nes App will make it easy for you to stay organized.",
+    image: "./nes-notes.gif",
+    link: "https://css-nes-notes-markdown.vercel.app/",
   },
 ];
 
 export const testimonials = [
   {
+    id: 1,
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+      "Design usefull UI interfaces to help the user have a better experience and interaction with the App, It’s also easy to customize and scalable, adapting to any design",
+    image: "https://progsoft.net/images/tailwind-css-icon-70187f0341bd945dc65ad050a9a1b8f4fd79b1cf.png",
+    name: "Tailwind CSS",
+    company: "CSS Framework",
   },
   {
+    id: 2,
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+      "Helps me to create an interactive user interfaces in a simple way, taking care of efficiently updating and rendering the correct components when the data changes.",
+    image: "https://miro.medium.com/max/500/1*cPh7ujRIfcHAy4kW2ADGOw.png",
+    name: "React.js",
+    company: "Javascript Framework",
   },
 ];
 
 export const skills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "Teamwork",
+  "Time Management",
+  "Flexibility",
+  "Focused in Goals",
+  "Self Learning",
+  "Creative Thinking",
+];
+
+export const contact = [
+  {
+    id: 1,
+    title: "Github Repository",
+    image: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+    info: "GitHub Repository",
+    link: "https://github.com/devandres22"
+  },
+  {
+    id: 2,
+    title: "Linkedin",
+    image: "https://cdn-icons-png.flaticon.com/512/3536/3536505.png",
+    info: "My personal linkedin with info about my current projects and my work history",
+    link: "https://www.linkedin.com/in/andrustn/"
+    
+  },
+  {
+    id: 3,
+    title: "Twitter",
+    image: "https://cdn-icons-png.flaticon.com/512/3256/3256013.png",
+    info: "My personal linkedin with info about my current projects and my work history",
+    link: "https://twitter.com/andrustn"
+  },
+  {
+    id: 4,
+    title: "Facebook",
+    image: "https://cdn-icons-png.flaticon.com/512/174/174848.png",
+    info: "My personal facebook with info about my current projects and my work history",
+    link: "https://www.facebook.com/andrustn/"
+  },
 ];
