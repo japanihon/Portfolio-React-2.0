@@ -1,10 +1,13 @@
+
+
+
 export const projects = [
   {
     id: 1,
     title: "Image Search App",
     subtitle: "Javascript",
     description:
-      "Image Search App is an image search engine that lets you scour the web for the best pictures of anything you could possibly want",
+      "Image Search App is an image search engine that lets you find the bests pictures of anything you could possibly want",
     image: "./imageweb.gif",
     link: "https://image-search-engineering.netlify.app/",
   },
@@ -31,28 +34,49 @@ export const projects = [
     title: "Nes Todo App",
     subtitle: "React + Typescript + Nes.CSS",
     description:
-      "Todo Nes App can be usefull for create shopping lists, to-do lists, take notes, or set reminders to increase your productivity. Todo Nes App will make it easy for you to stay organized.",
+      "can be usefull for create shopping lists, to-do lists, take notes, or set reminders to increase your productivity and stay organized.",
     image: "./nes-notes.gif",
     link: "https://css-nes-notes-markdown.vercel.app/",
   },
+  {
+    id: 5,
+    title: "Palette Color Generator :",
+    subtitle: "Make in Javascript",
+    description:
+      "A color scheme app is a tool who allows users to create and manage color palettes for design projects.",
+    image: "./palette.jpg",
+    link: "https://palettegencolor.netlify.app/",
+  },
+  {
+    id: 6,
+    title: "Titulo de la App",
+    subtitle: "Proxima App ",
+    description:
+      "The app may be available as a standalone program, or it may be offered as a feature within a larger design or graphics software package",
+    image: "./portfolio llama.png",
+    link: "",
+  },
 ];
 
-export const testimonials = [
+export const tools = [
   {
     id: 1,
-    quote:
-      "Design usefull UI interfaces to help the user have a better experience and interaction with the App, It’s also easy to customize and scalable, adapting to any design",
-    image: "https://progsoft.net/images/tailwind-css-icon-70187f0341bd945dc65ad050a9a1b8f4fd79b1cf.png",
-    name: "Tailwind CSS",
-    company: "CSS Framework",
+    name: "Excalidraw",
   },
   {
     id: 2,
-    quote:
-      "Helps me to create an interactive user interfaces in a simple way, taking care of efficiently updating and rendering the correct components when the data changes.",
-    image: "https://miro.medium.com/max/500/1*cPh7ujRIfcHAy4kW2ADGOw.png",
-    name: "React.js",
-    company: "Javascript Framework",
+   
+    name: "Github",
+  },
+  {
+    id: 3,
+   
+    name: "Figma",
+  },
+  {
+    id: 4,
+    
+    name: "Notion",
   },
 ];
 
@@ -64,6 +88,16 @@ export const skills = [
   "Self Learning",
   "Creative Thinking",
 ];
+
+export const languages = [
+  "Javascript",
+  "HTML5",
+  "CSS3",
+  "Node.js",
+  "React",
+  "Tailwind CSS",
+];
+
 
 export const contact = [
   {
