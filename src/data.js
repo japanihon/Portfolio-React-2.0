@@ -59,26 +59,14 @@ export const projects = [
 ];
 
 export const tools = [
-  {
-    id: 1,
-    name: "Excalidraw",
-  },
-  {
-    id: 2,
-   
-    name: "Github",
-  },
-  {
-    id: 3,
-   
-    name: "Figma",
-  },
-  {
-    id: 4,
-    
-    name: "Notion",
-  },
-];
+  "Excalidraw -> Outline ideas with sketch & diagrams",
+  "Github -> Save code repositories",
+  "Figma -> Hepfull for UX/UI design",
+  "Notion -> Organization and keep progress",
+  "Git -> Handle projects",
+  "Chrome DevTools -> Debbuging tool"
+]
+ 
 
 export const skills = [
   "Teamwork",
