@@ -1,10 +1,6 @@
 import React from "react";
-
-import { languages } from "../data";
-
-
-
-
+import { ChipIcon , BadgeCheckIcon } from "@heroicons/react/solid";
+import { languages , tools } from "../data";
 
 export default function Testimonials() {
   return (
@@ -12,48 +8,79 @@ export default function Testimonials() {
     id="testimonials"
     style={{backgroundColor: "#bfbfbf"}}
     >
-      <div className="container px-5 py-10 mx-auto text-center"
-        
+      <div className="container px-2 py-2 mx-auto text-center">
+        <ChipIcon className="w-10 inline-block mb-4" 
        style={{ backgroundColor: "#bfbfbf"}}
-        >
+        />
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12"
         >
-        Technologies I work
+        Technologies
         </h1>
-        <div 
-        className="flex flex-wrap m-4">
-          {languages.map((languages) => (
-            <div 
-            key={languages}
-            className="p-4 md:w-1/2 w-full"
-            style={{ backgroundColor: '#e0ebeb'}}
-             >
-              <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded"
-              style={{ backgroundColor: '#e0ebeb'}}>
-                
-                
-                 
-                <p className="leading-relaxed mb-6">
-                {languages}
-                </p>
-                <div className="inline-flex items-center">
-                  <img
-                    
-                    alt="noo"
-                    src={""}
-                    className="w-12 rounded-full flex-shrink-0 object-cover object-center"
-                  />
-                  <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium text-white">
-                      
-                    </span>
-                    <span className="text-gray-500 text-sm uppercase">
-                      
-                    </span>
-                  </span>
-                </div>
+        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+            <div key={languages[0]} className="p-2 sm:w-1/2 w-full">
+              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+                <span className="title-font font-medium text-white">
+                  {languages[0]}
+                </span>
               </div>
-            </div>
+              </div>
+            <div key={languages[1]} className="p-2 sm:w-1/2 w-full">
+              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+                <span className="title-font font-medium text-white">
+                  {languages[1]}
+                </span>
+              </div>
+              </div>
+            <div key={languages[2]} className="p-2 sm:w-1/2 w-full">
+              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+                <span className="title-font font-medium text-white">
+                  {languages[2]}
+                </span>
+              </div>
+              </div>
+            <div key={languages[3]} className="p-2 sm:w-1/2 w-full">
+              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+                <span className="title-font font-medium text-white">
+                  {languages[3]}
+                </span>
+              </div>
+              </div>
+              <div key={languages[4]} className="p-2 sm:w-1/2 w-full">
+              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+                <span className="title-font font-medium text-white">
+                  {languages[4]}
+                </span>
+              </div>
+              </div>
+              <div key={languages[5]} className="p-2 sm:w-1/2 w-full">
+              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+                <span className="title-font font-medium text-white">
+                  {languages[5]}
+                </span>
+              </div>
+              </div>
+
+        </div>
+
+        <div 
+        className="flex flex-wrap m-1 w-full px-0 py-0 border-10 border-blue-500 md:border-green-500 ">
+          {tools.map((tools) => (
+            <div 
+            key={tools}
+            className="px-0 py-0 m-7 mb-0  md:w-1/4 rounded-2xl border-blue-500 md:border-green-500"
+            style={{ backgroundColor: '#e0ebeb', border: "black "}}
+             >
+                <p className="leading-relaxed px-0 py-0 border-blue-500 md:border-green-500 ">
+                {tools}
+                </p>
+              </div>
+           
           ))}
         </div>
       </div>
