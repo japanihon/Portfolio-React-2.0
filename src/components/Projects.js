@@ -26,21 +26,22 @@ export default function Projects() {
               target="_blank" 
               rel="noopener noreferrer"
               key={project.image}
-              className="sm:w-1/3  p-4">
-              <div className="flex relative px-0 py-0 m-0 border-gray-800 bg-gray-900">
+              className="sm:w-1/3  p-4"
+              >
+              <div className="flex relative px-0 py-0 m-0" >
                 <img
                   alt="gallery"
-                  className="absolute flex  px-0 py-0  border-gray-800 bg-gray-900 blur-sm"
+                  className="absolute flex  px-0 py-0"
                   src={project.image}
-                  style={{width: '25rem', height: '15rem'}}
+                  style={{width: '25rem', height: '15rem', border: "5px solid gray" , borderRadius: "20px"}}
                 />
 
-                <div className="relative z-10 border-4  opacity-0 hover:opacity-100 px-5 py-5 w-full"
-                style={{width: '25rem', height: '15rem'}}
+                <div className="relative z-10 border-4  opacity-0 hover:opacity-100 px-5 py-5 w-full bg-white" 
+                style={{width: '25rem', height: '15rem', borderRadius: "20px"}}
                 >
-                  <h1 className=" relative z-10  title-font text-lg font-medium blur-sm text-black mb-3 w-full px-0 py-0"
+                  <h1 className="relative z-10  title-font text-lg font-medium  mb-3 w-full px-0 py-0"
                   >
-                    {project.title} {project.description} </h1>
+                    {project.title}{project.description} </h1>
                 
                 
                 </div>
