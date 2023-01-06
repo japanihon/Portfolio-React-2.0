@@ -59,12 +59,12 @@ export const projects = [
 ];
 
 export const tools = [
-  "Excalidraw -> Outline ideas with sketch & diagrams",
-  "Github -> Save code repositories",
-  "Figma -> Hepfull for UX/UI design",
-  "Notion -> Organization and keep progress",
-  "Git -> Handle projects",
-  "Chrome DevTools -> Debbuging tool"
+  "🎨 Excalidraw -> Outline ideas with sketchs",
+  "🗂️ Github -> Save code repositories",
+  "✏️ Figma -> Hepfull for UX/UI design",
+  "📇 Notion -> Organization & Study",
+  "↔️ Git -> Handle projects",
+  "🧰 Chrome DevTools -> Debbuging tool"
 ]
  
 
