@@ -24,11 +24,11 @@ const ContactForm = () => {
 
   return (
     <section id="contactForm" className="flex justify-center items-center"
-    style={{backgroundColor: "#bfbfbf"}}
+    style={{backgroundColor: "#cccccc"}}
     >
     <div className="justify-center bg-gray text-center">
     <UsersIcon
-       className="inline-block" 
+       className="inline-block mt-6 mb-6" 
        style={{width: "70px", backgroundColor: "#bfbfbf", alignItems: "center"}}
        />
     <form
@@ -36,9 +36,10 @@ const ContactForm = () => {
       onSubmit={handleSubmit}
       method="POST"
       target="_blank"
+      style={{backgroundColor: "#cccccc"}}
     >
-     <h2 className="text-gray sm:text-4xl text-3xl mb-1 font-medium title-font flex justify-center content-center items-center font-mono" 
-        style={{color: '#e0ebeb'}}
+     <h2 className="text-gray sm:text-4xl text-3xl mb-4 font-medium title-font flex justify-center content-center items-center font-mono" 
+        style={{color: '#e0ebeb' }}
         >
           Contact Me
         </h2>
@@ -54,7 +55,7 @@ const ContactForm = () => {
           required
         />
       </div>
-      <div className="mb-3 pt-0">
+      <div className="mb-3 pt-0" style={{backgroundColor: "#cccccc"}}>
         <input
           type="email"
           placeholder="Email"
@@ -73,7 +74,7 @@ const ContactForm = () => {
       </div>
       <div className="mb-3 pt-0">
         <button
-          className="bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:bg-gray-700 hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+          className="bg-white text-gray-400 active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:bg-gray-700 hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
           type="submit"
         >
           Send me an e-mail

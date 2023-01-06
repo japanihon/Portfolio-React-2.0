@@ -5,10 +5,10 @@ export default function ExtraFooter() {
 return (
 <div 
 className="p-6 bg-gray items-center justify-center text-center mx-auto px-5"
-style={{backgroundColor: "#bfbfbf"}}>
-      <h2 className="text-3xl font-semibold items-center text-center mb-6 text-gray-700 font-mono" style={{backgroundColor: "#bfbfbf"}} > Me on Social Media </h2>
+style={{backgroundColor: "#cccccc"}}>
+      <h2 className="text-3xl font-semibold items-center text-center mb-6 text-gray-700 font-mono"  > Me on Social Media </h2>
 
-      <div className="items-center flex-wrap justify-center gap-5 text-center px-5 " style={{backgroundColor: "#bfbfbf"}}>
+      <div className="items-center flex-wrap justify-center gap-5 text-center px-5 " >
 
         <a href="https://www.facebook.com/andrustn/" target="_blank" rel="noopener noreferrer">
         <button className="bg-blue-500 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded px-5 mx-5">
@@ -44,7 +44,7 @@ style={{backgroundColor: "#bfbfbf"}}>
           <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="w-5" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.372 0 0 5.373 0 12s5.372 12 12 12c6.627 0 12-5.373 12-12S18.627 0 12 0zm.14 19.018c-3.868 0-7-3.14-7-7.018c0-3.878 3.132-7.018 7-7.018c1.89 0 3.47.697 4.682 1.829l-1.974 1.978v-.004c-.735-.702-1.667-1.062-2.708-1.062c-2.31 0-4.187 1.956-4.187 4.273c0 2.315 1.877 4.277 4.187 4.277c2.096 0 3.522-1.202 3.816-2.852H12.14v-2.737h6.585c.088.47.135.96.135 1.474c0 4.01-2.677 6.86-6.72 6.86z" fill="currentColor"/></g></svg>
         </button></a>
 
-        <p className="justify-center items-center font-mono text-2xl text-center py-8" style={{backgroundColor: "#bfbfbf"}}> © 2022 Design by AR development. All rights reserved. </p>
+        <p className="justify-center items-center font-mono text-2xl text-center py-8" > © 2022 Design by AR development. That's all folks ! </p>
       </div>
     </div>
 )}

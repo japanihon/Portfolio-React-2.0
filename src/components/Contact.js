@@ -39,7 +39,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="flex justify-center items-center"
-    style={{backgroundColor: "#bfbfbf"}}
+    style={{backgroundColor: "#cccccc"}}
     >
     <div className="justify-center bg-gray text-center">
     <UsersIcon
