@@ -49,12 +49,12 @@ export const projects = [
   },
   {
     id: 6,
-    title: "Chrome Dashboard :",
-    subtitle: "Dashboard for Google Chrome",
+    title: "Budget Planner :",
+    subtitle: "Budget Planner",
     description:
-      " Easy to use and navigate, allowing users to quickly access the information and tools they need.",
-    image: "./dashboard.jpg",
-    link: "https://api-dashboard-iota.vercel.app/",
+      "Easy to use to plan any kind of budget",
+    image: "./planner.jpg",
+    link: "https://budget23.netlify.app/",
   },
 ];
 
